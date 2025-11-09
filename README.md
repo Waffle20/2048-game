@@ -1,13 +1,13 @@
 # 2048 Game in C with ncurses
-    &nbsp;Am inceput prin creerea unei ferestre pentru meniu si am adaugat la
+        Am inceput prin creerea unei ferestre pentru meniu si am adaugat la
     coordonatele potrivite butoanele new game resume si quit Functia principala
     este game unde se intampla majoritatea jocului,si este apelata in functia
     menu in care reprezentam optiunile si daca sunt selectate.
-    &nbsp;Cat timp nu se apasa enter,adica nu s a selectat o optiune ,ramanem in 
+        Cat timp nu se apasa enter,adica nu s a selectat o optiune ,ramanem in 
     meniu.daca position este 2 folosim atributul sa adaugam efectul de 
     inversare a culorii de la scris cu cea de fundal ca sa reprezentam ce 
     este selectat in momentul respectiv.
-    &nbsp;De asemenea functia Arrow verifica ce optiune este selectata si ii pune 
+        De asemenea functia Arrow verifica ce optiune este selectata si ii pune 
     o sageata in dreapta.Am folosit si atributele pentru a da un fel de 
     highlight la elementele pe care este cursorul.Am pus si conditii ca sa ne 
     intoarcem la primul sau ultimul element din meniu daca se da sageata in jos 
@@ -70,4 +70,5 @@
     functia unde afisez elementel din tabala am folosit un switch pentru a 
     personaliza fiecare numar cu o culoare.Si pentru functia care afiseaza 
     timpul curent am folosit structura tm si localtime .
+
 
